@@ -1,0 +1,40 @@
+baseURL = 'https://sirwritealot.com'
+languageCode = 'en-us'
+title = 'sirwritealot'
+theme = 'digitalgarden'
+
+[Params]
+  description = "My Stories on the Internet"
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Content'
+  params.header = true
+  weight = 2
+[[menu.main]]
+  name = 'Random Tales'
+  url = '/randomtales'
+  weight = 3
+[[menu.main]]
+  name = 'Tales of a Clumsy Girl'
+  url = '/clumsygirl'
+  weight = 4
+[[menu.main]]
+  name = 'Story Collection - CMU'
+  url = '/cmu'
+  weight = 5
+[[menu.main]]
+  name = 'Story Collection - IIMA'
+  url = '/iima'
+  weight = 6
+
+
+
+[[menu.social]]
+  name = 'Twitter'
+  url = 'https://twitter.com/kunalprak'
+  weight = 1
