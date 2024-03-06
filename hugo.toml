@@ -1,4 +1,4 @@
-baseURL = 'https://sirwritealot.com'
+baseURL = 'https://sirwritealot.com/'
 languageCode = 'en-us'
 title = 'sirwritealot'
 theme = 'digitalgarden'
